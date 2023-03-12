@@ -8,6 +8,8 @@ GitHub link: https://github.com/shrawanthakur16/docker_master.git
 Project:
 In this project, we implemented a CI/CD (Continuous Integration/Continuous Deployment) pipeline for the development, deployment, and continuous monitoring of a “Spring Boot” application respectively. The flow of all the stages step-by-step is termed as a “Pipeline”. For this purpose, we used open-source tools, such as “Jenkins”, “Github” and “Docker” (for monitoring purpose). 
 “AWS EC2” instance has been used for the hosting the application on the server. 
+
+
 Technology Stack 
 ￼ ￼ ￼
 • CI/CD :- Refers to a set of development practices that enable the rapid and reliable delivery of code changes, while DevOps is a collection of ideas, practices, processes, and technologies that allow development and operations 
