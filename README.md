@@ -30,8 +30,23 @@ software projects, making it easier for developers and DevOps engineers to integ
 
 SPRINT PLANNING 
 	•	The spring planning for the above application from development to deployment phase has been conducted in 15 days, which includes two sprints of 7 and 8 days respectively. A total number of 2 story points has been covered in total, which are divided in 1 and 1 in both the sprints. Each story has 4 tasks respectively.  
-	•	Prerequisites:  -> A GitHub account to store the source code. -> A Jenkins server with admin access. -> An AWS account to create an EC2 instance. -> Basic knowledge of Spring Boot, AWS EC2, and Jenkins.  1. Sprint 1 (7 Days/ 1 Story) :-  Task 1: Clone the GitHub repository:  Clone the repository containing the source code of the Spring Boot application to the local system. This will be used by Jenkins to build the application and create a deployment package.  Task 2: Install necessary plugins:  Install the following plugins in the Jenkins server :-  -> Maven Integration Plugin -> Git plugin  These plugins will be used to build the application and fetch the source code from the GitHub repository.  Task 3: Create a Jenkins job:  -> Create a new Jenkins job by navigating to Jenkins Dashboard > New Item > Freestyle project.  -> In the Source Code Management section, select Git and provide the URL of the GitHub repository where the code is stored.  -> In the Build section, select Invoke top-level Maven targets and provide the necessary Maven goals to build the application. For example, clean install.  
+	
+	•	
+Prerequisites:  -> A GitHub account to store the source code. 
+-> A Jenkins server with admin access. -> An AWS account to create an EC2 instance.
+-> Basic knowledge of Spring Boot, AWS EC2, and Jenkins.  1. Sprint 1 (7 Days/ 1 Story) :-
+
+Task 1: Clone the GitHub repository: Clone the repository containing the source code of the Spring Boot application to the local system. This will be used by Jenkins to build the application and create a deployment package. 
+
+Task 2: Install necessary plugins:  Install the following plugins in the Jenkins server :- 
+-> Maven Integration Plugin 
+-> Git plugin  These plugins will be used to build the application and fetch the source code from the GitHub repository.
+
+Task 3: Create a Jenkins job:
+-> Create a new Jenkins job by navigating to Jenkins Dashboard > New Item > Freestyle project.
+-> In the Source Code Management section, select Git and provide the URL of the GitHub repository where the code is stored.  -> In the Build section, select Invoke top-level Maven targets and provide the necessary Maven goals to build the application. For example, clean install.  
 ￼ 
+
 Task 4: Configure AWS EC2 instance: 
 -> Create an EC2 instance in the AWS account and configure the security group to allow HTTP traffic on port 8080. 
 -> Install Java and Tomcat on the EC2 instance to run the Spring Boot application. 
