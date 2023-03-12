@@ -12,6 +12,7 @@ In this project, we implemented a CI/CD (Continuous Integration/Continuous Deplo
 
 Technology Stack 
 ￼ ￼ ￼
+
 • CI/CD :- Refers to a set of development practices that enable the rapid and reliable delivery of code changes, while DevOps is a collection of ideas, practices, processes, and technologies that allow development and operations 
 teams to work together to streamline product development. 
 
