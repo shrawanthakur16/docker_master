@@ -60,7 +60,8 @@ Task 2: Configure AWS credentials:
 
 Task 3: Create a deployment job: 
 Create a new Jenkins job to deploy the Spring Boot application to the EC2 instance. In this job, configure the following steps :- 
--> Fetch the latest deployment package from the Jenkins workspace. -> Copy the deployment package to the EC2 instance using the AWS CLI. -> Start the Tomcat server on the EC2 instance to run the application. 
+-> Fetch the latest deployment package from the Jenkins workspace.
+-> Copy the deployment package to the EC2 instance using the AWS CLI. -> Start the Tomcat server on the EC2 instance to run the application. 
 
 Task 5: Test the deployment: 
 -> Run the deployment job and check if the application is deployed successfully on the EC2 instance. Access the application using the public IP address of the EC2 instance. 
