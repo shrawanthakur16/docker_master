@@ -31,7 +31,6 @@ software projects, making it easier for developers and DevOps engineers to integ
 ### SPRINT PLANNING 
 	•	The spring planning for the above application from development to deployment phase has been conducted in 15 days, which includes two sprints of 7 and 8 days respectively. A total number of 2 story points has been covered in total, which are divided in 1 and 1 in both the sprints. Each story has 4 tasks respectively.  
 	
-	•	
 Prerequisites:  -> A GitHub account to store the source code. 
 -> A Jenkins server with admin access. -> An AWS account to create an EC2 instance.
 -> Basic knowledge of Spring Boot, AWS EC2, and Jenkins.  1. Sprint 1 (7 Days/ 1 Story) :-
