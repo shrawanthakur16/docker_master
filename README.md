@@ -1,16 +1,16 @@
 # docker_master
 
-CI/CD Deployment for SpringBoot Application
+## CI/CD Deployment for SpringBoot Application
 
-Developed by: Shrawan Kumar Thakur
-GitHub link: https://github.com/shrawanthakur16/docker_master.git
+### Developed by: Shrawan Kumar Thakur
+### GitHub link: https://github.com/shrawanthakur16/docker_master.git
 
 Project:
 In this project, we implemented a CI/CD (Continuous Integration/Continuous Deployment) pipeline for the development, deployment, and continuous monitoring of a “Spring Boot” application respectively. The flow of all the stages step-by-step is termed as a “Pipeline”. For this purpose, we used open-source tools, such as “Jenkins”, “Github” and “Docker” (for monitoring purpose). 
 “AWS EC2” instance has been used for the hosting the application on the server. 
 
 
-Technology Stack 
+### Technology Stack 
 ￼ ￼ ￼
 
 • CI/CD :- Refers to a set of development practices that enable the rapid and reliable delivery of code changes, while DevOps is a collection of ideas, practices, processes, and technologies that allow development and operations 
@@ -28,7 +28,7 @@ software projects, making it easier for developers and DevOps engineers to integ
 
 
 
-SPRINT PLANNING 
+### SPRINT PLANNING 
 	•	The spring planning for the above application from development to deployment phase has been conducted in 15 days, which includes two sprints of 7 and 8 days respectively. A total number of 2 story points has been covered in total, which are divided in 1 and 1 in both the sprints. Each story has 4 tasks respectively.  
 	
 	•	
